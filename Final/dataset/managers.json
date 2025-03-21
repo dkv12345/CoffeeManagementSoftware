@@ -1,0 +1,20 @@
+[
+    {
+        "ManagerID": "01",
+        "ManagerName": "Bob",
+        "ManagerUsername": "bob",
+        "ManagerPassword": "123"
+    },
+    {
+        "ManagerID": "02",
+        "ManagerName": "Sally",
+        "ManagerUsername": "sally",
+        "ManagerPassword": "456"
+    },
+    {
+        "ManagerID": "03",
+        "ManagerName": "Kevin",
+        "ManagerUsername": "kevin",
+        "ManagerPassword": "789"
+    }
+]

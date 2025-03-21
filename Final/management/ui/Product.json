@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "name": "Chocolate Balance",
+        "price": 36,
+        "quantity": 6
+    },
+    {
+        "id": "2",
+        "name": "Classical Cold Brew",
+        "price": 38,
+        "quantity": 4
+    },
+    {
+        "id": "3",
+        "name": "Vanilla Roast",
+        "price": 40,
+        "quantity": 8
+    },
+    {
+        "id": "4",
+        "name": "Special Blend",
+        "price": 35,
+        "quantity": 3
+    },
+    {
+        "id": "5",
+        "name": "Instant Coffee",
+        "price": 30,
+        "quantity": 7
+    },
+    {
+        "id": "6",
+        "name": "Dark Chocolate",
+        "price": 50,
+        "quantity": 1
+    },
+    {
+        "id": "7",
+        "name": "Vanilla Cold Brew",
+        "price": 40,
+        "quantity": 7
+    },
+    {
+        "id": "8",
+        "name": "Uji Matcha",
+        "price": 70,
+        "quantity": 8
+    },
+    {
+        "id": "9",
+        "name": "Dark Roast",
+        "price": 45,
+        "quantity": 9
+    },
+    {
+        "id": "10",
+        "name": "Mocha Coffee",
+        "price": 30,
+        "quantity": 2
+    },
+    {
+        "id": "11",
+        "name": "Milk Chocolate",
+        "price": 55,
+        "quantity": 8
+    },
+    {
+        "id": "12",
+        "name": "Medium Roast Blend",
+        "price": 45,
+        "quantity": 2
+    },
+    {
+        "id": "13",
+        "name": "Kyoto Matcha",
+        "price": 80,
+        "quantity": 4
+    },
+    {
+        "id": "14",
+        "name": "Light Roast",
+        "price": 35,
+        "quantity": 7
+    },
+    {
+        "id": "15",
+        "name": "Milk Tea",
+        "price": 39.0,
+        "quantity": 10
+    },
+    {
+        "id": "16",
+        "name": "Olong Tea",
+        "price": 23.0,
+        "quantity": 10
+    }
+]

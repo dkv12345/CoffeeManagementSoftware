@@ -1,0 +1,86 @@
+[
+    {
+        "id": "01",
+        "name": "Chocolate Balance",
+        "price": "36",
+        "quantity": "10"
+    },
+    {
+        "id": "02",
+        "name": "Dark Chocolate   ",
+        "price": "50",
+        "quantity": "10"
+    },
+    {
+        "id": "03",
+        "name": "Milk Chocolate   ",
+        "price": "55",
+        "quantity": "10"
+    },
+    {
+        "id": "04",
+        "name": "Classical Cold Brew",
+        "price": "38",
+        "quantity": "10"
+    },
+    {
+        "id": "05",
+        "name": "Vanilla Cold Brew ",
+        "price": "40",
+        "quantity": "10"
+    },
+    {
+        "id": "06",
+        "name": "Medium Roast Blend",
+        "price": "45",
+        "quantity": "10"
+    },
+    {
+        "id": "07",
+        "name": "Vanilla Roast     ",
+        "price": "40",
+        "quantity": "10"
+    },
+    {
+        "id": "08",
+        "name": "Uji Matcha.       ",
+        "price": "70",
+        "quantity": "10"
+    },
+    {
+        "id": "09",
+        "name": "Kyoto Matcha.     ",
+        "price": "80",
+        "quantity": "10"
+    },
+    {
+        "id": "10",
+        "name": "Special Blend     ",
+        "price": "35",
+        "quantity": "10"
+    },
+    {
+        "id": "11",
+        "name": "Dark Roast        ",
+        "price": "45",
+        "quantity": "10"
+    },
+    {
+        "id": "12",
+        "name": "Light Roast       ",
+        "price": "35",
+        "quantity": "10"
+    },
+    {
+        "id": "13",
+        "name": "Instant Coffee    ",
+        "price": "30",
+        "quantity": "10"
+    },
+    {
+        "id": "14",
+        "name": "Mocha Coffee      ",
+        "price": "30",
+        "quantity": "10"
+    }
+]

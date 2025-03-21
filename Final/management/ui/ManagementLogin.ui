@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>427</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>411</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../images/back.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>361</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: rgba(250, 250, 230, 80); /* Beige siêu nhạt, trong suốt */
+    border-radius: 10px; /* Bo góc mềm mại */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLabel {
+    background: transparent;
+    border: none;
+ font-family: &quot;Georgia&quot;, serif; 
+font: 30pt 
+}</string>
+    </property>
+    <property name="text">
+     <string>COFFEE MANAGEMENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLabel {
+    background: transparent;
+    border: none;
+ font-family: &quot;Georgia&quot;, serif; 
+font: 18pt 
+}</string>
+    </property>
+    <property name="text">
+     <string>User's Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLabel {
+    background: transparent;
+    border: none;
+ font-family: &quot;Georgia&quot;, serif; 
+font: 18pt 
+}</string>
+    </property>
+    <property name="text">
+     <string>Password: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_ManagerUsername">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 10px;
+    border: 2px solid ; 
+    background-color: rgba(240, 240, 240, 200); /* Màu nền xám nhạt, hơi trong suốt */
+    border: 1px solid #d0d0d0; /* Viền mỏng màu xám nhạt */
+ font-family: &quot;Georgia&quot;, serif; font: 18;
+
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_ManagerPassword">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 10px;
+    border: 2px solid ; 
+    background-color: rgba(240, 240, 240, 200); /* Màu nền xám nhạt, hơi trong suốt */
+    border: 1px solid #d0d0d0; /* Viền mỏng màu xám nhạt */
+ font-family: &quot;Georgia&quot;, serif; font: 18;
+
+}
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLogin">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>240</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 18pt;
+    border-radius: 10px;
+    border: 2px solid #d2b48c; /* Màu be nhạt */
+    background-color: #f5f5dc; /* Màu be nhạt */
+    color: black;
+    padding: 5px 10px;
+ font-family: &quot;Georgia&quot;, serif; 
+
+}
+QPushButton:hover {
+    background-color: #e0d5b7; /* Màu be hơi đậm khi hover */
+}
+QPushButton:pressed {
+    background-color: #c8b693; /* Màu be sậm hơn khi nhấn */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../images/3535187_bottle_cafe_coffee_cup_drink_icon.png</normaloff>../../images/3535187_bottle_cafe_coffee_cup_drink_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 18pt;
+    border-radius: 10px;
+    border: 2px solid #d2b48c; /* Màu be nhạt */
+    background-color: #f5f5dc; /* Màu be nhạt */
+    color: black;
+    padding: 5px 10px;
+ font-family: &quot;Georgia&quot;, serif; 
+
+}
+QPushButton:hover {
+    background-color: #e0d5b7; /* Màu be hơi đậm khi hover */
+}
+QPushButton:pressed {
+    background-color: #c8b693; /* Màu be sậm hơn khi nhấn */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../images/4115235_exit_logout_sign out_icon.png</normaloff>../../images/4115235_exit_logout_sign out_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>427</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

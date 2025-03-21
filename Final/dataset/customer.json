@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "John Smith     ",
+        "phone": "1234567890",
+        "customer_type": "Normal"
+    },
+    {
+        "id": "2",
+        "name": "Emma Johnson   ",
+        "phone": "0987654321",
+        "customer_type": "VIP"
+    },
+    {
+        "id": "3",
+        "name": "Michael Brown   ",
+        "phone": "1122334455",
+        "customer_type": "Normal"
+    },
+    {
+        "id": "3",
+        "name": "Sophia Martinez ",
+        "phone": "2233445566",
+        "customer_type": "VIP"
+    },
+    {
+        "id": "4",
+        "name": "William Anderson ",
+        "phone": "3344556677",
+        "customer_type": "Normal"
+    }
+]
